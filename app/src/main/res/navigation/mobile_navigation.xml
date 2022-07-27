@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.alareencenter.MENU.Home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_types"
+        android:name="com.example.alareencenter.MENU.Typesofphysiotherapist"
+        android:label="Types of physiotherapist"
+        tools:layout="@layout/fragment_typesofphysiotherapist" />
+
+    <fragment
+        android:id="@+id/nav_Rheumatiod"
+        android:name="com.example.alareencenter.MENU.RheumatiodArthritis"
+        android:label="Be a membership"
+        tools:layout="@layout/fragment_rheumatiod_arthritis" />
+
+
+    <fragment
+        android:id="@+id/nav_helps"
+        android:name="com.example.alareencenter.MENU.HelpsPostureProblems"
+        android:label="Helps posture problems"
+        tools:layout="@layout/fragment_helps_posture_problems" />
+
+
+
+    <fragment
+        android:id="@+id/techniques"
+        android:name="com.example.alareencenter.MENU.OurTechniques"
+        android:label="Our techniques"
+        tools:layout="@layout/fragment_our_techniques" />
+
+    <fragment
+        android:id="@+id/Notice"
+        android:name="com.example.alareencenter.MENU.Notice"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice" />
+
+
+    <fragment
+        android:id="@+id/aboutus"
+        android:name="com.example.alareencenter.MENU.AboutUs"
+        android:label="About us"
+        tools:layout="@layout/fragment_about_us" />
+
+    <fragment
+        android:id="@+id/logout"
+        android:name="com.example.alareencenter.MENU.LogOut"
+        android:label="Logout"/>
+
+
+</navigation>

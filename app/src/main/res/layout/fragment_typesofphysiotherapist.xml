@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MENU.Typesofphysiotherapist">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="350dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="9dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="center"
+            android:text="Types of physiotherapy "
+            android:textColor="@color/navbar"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/image_slider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
+            android:gravity="left"
+            android:text="Physiotherapy can be a transformative experience and people of all ages can take advantage of it. Physiotherapists make use of a combination of hands-on manual and exercise-based techniques to help patients achieve optimal outcomes. From increasing the range of motion and body flexibility, the benefits of physiotherapy are plentiful. Keep reading to know the different physiotherapy types that you can receive."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_marginTop="10dp"
+        android:id="@+id/image_slider"
+        android:layout_width="422dp"
+        android:layout_height="225dp"
+        android:layout_marginBottom="14dp"
+        android:paddingTop="20dp"
+        app:iss_auto_cycle="true"
+        app:iss_period="3000"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="left"
+            android:text="• Sports Physiotherapy"
+            android:textColor="@color/navbar"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
+            android:gravity="left"
+            android:text="Sports physiotherapy is a special branch of physiotherapy that deals with sports professionals and athletes. Sports physiotherapists are also dedicated to assess and treat injuries related to exercise at all levels. Getting athletes back to full form and getting rid of pain is only a part of what a sports physiotherapist does. The focus is also on performance and the overall development of the patient."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="left"
+            android:text="• Rehabilitation and Pain Management"
+            android:textColor="@color/navbar"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
+            android:gravity="left"
+            android:text="Rehabilitation and management of pain are some of the most important aspects of physiotherapy. Physiotherapy can help patients eliminate unwanted aches and pains in the body. The treatment plans are typically customised to cater to specific patient requirements. From helping patients get back on their feet after major surgery to managing the pain of all types, physiotherapy is the solution."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="left"
+            android:text="• Musculoskeletal Physiotherapy"
+            android:textColor="@color/navbar"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
+            android:gravity="left"
+            android:text="This type of physical therapy deals with the restoration of the function of the musculoskeletal system, which consists of the muscles, joints, bones, ligaments, and tendons. It is also referred to as orthopedic physiotherapy. Musculoskeletal physiotherapy can increase mobilisation, decrease pain, rectify injuries, and treat soft-tissue damage."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="left"
+            android:text="• Vestibular Rehabilitation"
+            android:textColor="@color/navbar"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
+            android:gravity="left"
+            android:text="This type of physiotherapy focuses on the rehabilitation of a person’s balance and repositioning the crystals in the inner ear. The physiotherapist helps in realigning one’s body balance so that there is an increase in the overall function of the body."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="left"
+            android:text="• Paediatric Physiotherapy"
+            android:textColor="@color/navbar"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
+            android:gravity="left"
+            android:text="This type of therapy focuses on the physical needs of toddlers, infants, children, and also adolescents. Children with a variety of neuromuscular, developmental, or skeletal disorders can benefit from it. Paediatric physiotherapy aims to alleviate pain, improve fine and gross motor skills in children, help in regaining range of motion and strength, and facilitates better cognitive processes."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="left"
+            android:text="• Neurological Physiotherapy"
+            android:textColor="@color/navbar"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="414dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/alata"
+            android:gravity="left"
+            android:text="Neurological issues like strokes, spinal cord injuries, Parkinson’s disease, multiple sclerosis, Alzheimer’s, cerebral palsy, or brain injuries, strike at the nervous system. Since the nervous system plays an important role in how your brain controls your body, neurological problems are mostly considered chronic."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

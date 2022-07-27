@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RateUs"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_baseline_star_rate_24" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="412dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+
+        <TextView
+            android:id="@+id/mytextview"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="396dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="U Can rating us below"
+            android:textColor="@color/navbar"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+
+            android:gravity="center"
+            android:layout_gravity="center"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonshow"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Rate"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="@color/navbar"
+            app:cornerRadius="@dimen/fab_margin" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MENU.RheumatiodArthritis"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:text="BE A MEMBERSHIP"
+        android:textColor="@color/navbar"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alata"
+        android:gravity="left"
+        android:text="Create your own account, then log in to be able to review us at Al Areen Physiotherapy Center and book your appointments."
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card1"
+            android:layout_width="151dp"
+            android:layout_height="134dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_baseline_how_to_reg_24" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/navbar" />
+
+                <TextView
+                    android:layout_width="123dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center_horizontal"
+                    android:text="Register and be a member"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/navbar"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="151dp"
+            android:layout_height="134dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:padding="15dp"
+                    android:src="@drawable/ic_baseline_login_24" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/navbar" />
+
+                <TextView
+                    android:layout_width="123dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center_horizontal"
+                    android:text="Login as a membership"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/navbar"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

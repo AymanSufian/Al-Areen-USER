@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "565422673538",
+    "project_id": "physiotherapy-37b02",
+    "storage_bucket": "physiotherapy-37b02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565422673538:android:346952b9b4e59675256e9b",
+        "android_client_info": {
+          "package_name": "com.example.alareencenter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565422673538-hgdiv3ujhddk4ju0kvhsr3nc3ras73qa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alareencenter",
+            "certificate_hash": "656c43113b0fe18449fd733a5fecdef434aa71e5"
+          }
+        },
+        {
+          "client_id": "565422673538-5j6ungvpieompgbik7lqtgleibo5371f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCO71EKXnW6TXC9TTjjatrJwguKBxTczoM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565422673538-5j6ungvpieompgbik7lqtgleibo5371f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

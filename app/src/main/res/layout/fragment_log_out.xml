@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MENU.LogOut"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="357dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:text="See you soon"
+        android:textColor="@color/navbar"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/logout12"
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/appname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/logout" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/logout"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/alata"
+        android:gravity="center"
+        android:text="Logout"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="@color/navbar"
+        app:cornerRadius="@dimen/fab_margin" />
+
+
+
+</LinearLayout>

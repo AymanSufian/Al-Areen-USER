@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="250dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/areen_logo" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="center"
+                android:text="Al Areen Center"
+                android:textColor="@color/navbar"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Al Areen Physiotherapy Center is a center for the treatment of physical diseases of all kinds, and the treatment process for patients takes place with the latest methods and equipment, through this application you can see what physical therapy means by watching the video below or reading about physical therapy."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="left"
+                android:text="What is physiotherapy ?"
+                android:textColor="@color/navbar"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Physiotherapists help people affected by injury, illness or disability through movement and exercise, manual therapy, education and advice.
+They maintain health for people of all ages, helping patients to manage pain and prevent disease.
+The profession helps to encourage development and facilitate recovery, enabling people to stay in work while helping them remain independent for as long as possible."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="left"
+                android:text="What physiotherapists do ?"
+                android:textColor="@color/navbar"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"
+                android:text="Physiotherapy is a science-based profession and takes a ‘whole person’ approach to health and wellbeing, which includes the patient’s general lifestyle.
+At the core is the patient’s involvement in their own care, through education, awareness, empowerment and participation in their treatment.
+You can benefit from physiotherapy at any time in your life. Physiotherapy helps with back pain or sudden injury, managing long-term medical condition such as asthma, and in preparing for childbirth or a sporting event."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="left"
+                android:text="Why physiotherapy ?"
+                android:textColor="@color/navbar"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Physiotherapy is a degree-based healthcare profession. Physios use their knowledge and skills to improve a range of conditions associated with different systems of the body."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/Video"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_margin="10dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="130dp"
+                            android:layout_height="79dp"
+                            android:padding="15dp"
+                            android:src="@drawable/videoimage" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/alata"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Watch A Video"
+                            android:textColor="@color/navbar"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/biref"
+                    android:layout_width="130dp"
+                    android:layout_height="127dp"
+                    android:layout_margin="10dp"
+                    app:cardElevation="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_height="81dp"
+                            android:layout_gravity="center"
+                            android:padding="15dp"
+                            android:src="@drawable/brief" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="10dp" />
+
+                        <TextView
+                            android:layout_width="148dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/alata"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text="Brief"
+                            android:textColor="@color/navbar"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

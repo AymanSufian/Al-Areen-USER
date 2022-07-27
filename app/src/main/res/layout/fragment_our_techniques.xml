@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MENU.OurTechniques"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="194dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_marginLeft="50dp"
+            android:id="@+id/machine"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Our machines"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="@color/navbar"
+            app:cornerRadius="@dimen/fab_margin" />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/techniqu"
+            android:layout_marginLeft="20dp"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Our techniques"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="@color/navbar"
+            app:cornerRadius="@dimen/fab_margin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView2"
+            android:name="com.example.alareencenter.Machines"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

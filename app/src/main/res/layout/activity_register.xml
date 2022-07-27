@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="145dp"
+                android:layout_height="109dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:src="@drawable/ic_baseline_how_to_reg_24" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="center"
+                android:text="Register"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="@color/navbar"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patientemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:hint="Enter your Email"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="44dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patientpass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:hint="Enter your password"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="42dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="167dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patientname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:hint="Patient name"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/patientphone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:hint="Patient phone number"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="13dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/BackLogin"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:text="Register"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@color/navbar"
+                app:cornerRadius="@dimen/fab_margin" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/BackToLogin"
+                android:layout_width="135dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/alata"
+                android:gravity="center"
+                android:text="Main page"
+                android:textColor="#FFFFFF"
+                app:backgroundTint="@color/navbar"
+                app:cornerRadius="@dimen/fab_margin" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cornerRadius="@dimen/fab_margin" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

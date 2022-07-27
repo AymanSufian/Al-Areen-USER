@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Patient_Page"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="407dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Interview Request "
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/navbar"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="20dp">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/Myinformation"
+            android:layout_width="130dp"
+            android:layout_height="127dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="75dp"
+                    android:padding="15dp"
+                    android:src="@drawable/info" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/browser_actions_bg_grey" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/alata"
+                    android:padding="5dp"
+                    android:text="My Information"
+                    android:textColor="@color/navbar"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/delete"
+            android:layout_width="130dp"
+            android:layout_height="127dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="135dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="75dp"
+                    android:padding="15dp"
+                    android:src="@drawable/deleterequest" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/browser_actions_bg_grey" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/alata"
+                    android:padding="5dp"
+                    android:text="Delete a reservation"
+                    android:textColor="@color/navbar"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/update"
+            android:layout_width="130dp"
+            android:layout_height="129dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="132dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="75dp"
+                    android:padding="15dp"
+                    android:src="@drawable/requestareview" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/browser_actions_bg_grey" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/alata"
+                    android:padding="5dp"
+                    android:text="Request a reservation"
+                    android:textColor="@color/navbar"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/allinlist"
+            android:layout_width="130dp"
+            android:layout_height="132dp"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="129dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="77dp"
+                    android:padding="15dp"
+                    android:src="@drawable/lists"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/browser_actions_bg_grey" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/alata"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="List of reservations"
+                    android:textColor="@color/navbar"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="153dp"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/feed"
+                android:layout_width="130dp"
+                android:layout_height="129dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="132dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="75dp"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_baseline_feedback_24" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/browser_actions_bg_grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/alata"
+                        android:padding="5dp"
+                        android:text="Send FeedBack"
+                        android:textColor="@color/navbar"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/buttonshow"
+                android:layout_width="130dp"
+                android:layout_height="132dp"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="129dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="130dp"
+                        android:layout_height="77dp"
+                        android:padding="15dp"
+                        android:src="@drawable/ic_baseline_star_rate_24"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/browser_actions_bg_grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/alata"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Rate Us"
+                        android:textColor="@color/navbar"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/back"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/alata"
+            android:gravity="center"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="@color/navbar"
+            app:cornerRadius="@dimen/fab_margin" />
+
+
+    </LinearLayout>
+</ScrollView>

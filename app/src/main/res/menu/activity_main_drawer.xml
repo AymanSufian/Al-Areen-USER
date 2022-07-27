@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/nav_types"
+            android:icon="@drawable/ic_baseline_merge_type_24"
+            android:title="@string/nav_types" />
+
+
+
+        <item
+            android:id="@+id/nav_helps"
+            android:icon="@drawable/ic_baseline_help_center_24"
+            android:title="Helps posture problems" />
+
+        <item
+            android:id="@+id/nav_Rheumatiod"
+            android:icon="@drawable/ic_baseline_transfer_within_a_station_24"
+            android:title="Be a membership " />
+
+        <item
+            android:id="@+id/techniques"
+            android:icon="@drawable/ic_baseline_style_24"
+            android:title="Our techniques" />
+
+
+        <item
+            android:id="@+id/Notice"
+            android:icon="@drawable/ic_baseline_style_24"
+            android:title="Notice" />
+
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="About us " />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_call_missed_outgoing_24"
+            android:title="Logout"/>
+
+    </group>
+
+</menu>

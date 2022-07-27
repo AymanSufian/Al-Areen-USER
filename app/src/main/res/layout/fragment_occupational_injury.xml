@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MENU.Typesofphysiotherapist">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:gravity="left"
+            android:text="Occupational injury"
+            android:textColor="@color/navbar"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/alata"
+            android:text="An occupational injury is bodily damage resulting from working. The most common organs involved are the spine, hands, the head, lungs, eyes, skeleton, and skin. Occupational injuries can result from exposure to occupational hazards (physical, chemical, biological, or psychosocial), such as temperature, noise, insect or animal bites, blood-borne pathogens, aerosols, hazardous chemicals, radiation, and occupational burnout.
+While many prevention methods are set in place, injuries may still occur due to poor ergonomics, manual handling of heavy loads, misuse or failure of equipment, exposure to general hazards, and inadequate safety training."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:text="Prevention"
+            android:textColor="@color/navbar"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/alata"
+            android:text="There are many methods of preventing or reducing industrial injuries, including anticipation of problems by risk assessment, safety training, control banding, personal protective equipment safety guards, mechanisms on machinery, and safety barriers. In addition, past problems can be analyzed to find their root causes by using a technique called root cause analysis. A 2013 Cochrane review found low-quality evidence showing that inspections, especially focused inspections, can reduce work-related injuries in the long term."
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/areen_logo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Physiotherapy"
+                android:layout_marginLeft="16dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Time :"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="18dp"
+                    />
+
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 12:00"
+                    android:textSize="18dp"
+                    android:textColor="@color/navbar"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Date :"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="16dp"
+                    android:textSize="18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" 8 Jan 2021"
+                    android:textSize="18dp"
+                    android:textColor="@color/navbar"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_margin="8dp"
+            android:id="@+id/deleteNoticeTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ayman sufian jalal musa"
+            android:textSize="17dp"
+            android:textColor="@color/navbar"/>
+
+
+        <ImageView
+            android:id="@+id/deleteNoticeImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

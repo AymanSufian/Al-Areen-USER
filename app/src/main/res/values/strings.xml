@@ -1,0 +1,21 @@
+<resources>
+
+
+    <string name="app_name">Al ِِAreen Center</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="nav_types">Types of physiotherapist</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">What is a physiotherapy ?</string>
+
+    <string name="Progress_in_physical_therapy">New areas of practice are continually developing in the field of physical therapy. The scope of practice of a growing specialty in women’s health, for example, includes concerns such as incontinence, pelvic/vaginal pain, prenatal and postpartum musculosketelal pain, osteoporosis, rehabilitation following breast surgery, and lymphedema (accumulation of fluids in soft tissues). Females across the life span, from the young athlete to the childbearing, menopausal, or elderly woman, can benefit from physical therapy. Education for prevention, wellness, and exercise is another important area in addressing physical health for both men and women.</string>
+    <string name="Patients_of_physical_therapy">Often, persons who undergo physical therapy have experienced a decrease in quality of life as a result of physical impairments or functional limitations caused by disease or injury. Individuals who often are in need of physical therapy include those with back pain, elderly persons with arthritis or balance problems, injured athletes, infants with developmental disabilities, and persons who have had severe burns, strokes, or spinal cord injuries. Persons whose endurance for movement is affected by heart or lung problems or other illnesses are also helped by exercise and education to build activity tolerance and improve muscle strength and efficiency of movement during functional activities. Individuals with limb deficiencies are taught to use prosthetic replacement devices.</string>
+</resources>

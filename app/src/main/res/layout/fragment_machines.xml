@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F1F6"
+    tools:context=".Machines">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="center"
+                android:text="Our Machines"
+                android:textColor="@color/navbar"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="left"
+                android:text="1- Ultra sound syraby machine :"
+                android:textColor="@color/navbar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="153dp"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Ultrasound uses high-frequency sound waves to make images of organs and structures inside the body , An ultrasound machine makes images so that organs inside the body can be examined. The machine sends out high-frequency sound waves, which reflect off body structures. A computer receives the waves and uses them to create a picture. Unlike with an x-ray or CT scan, this test does not use ionizing radiation ."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="198dp"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/altrasoundsyrabymachine" />
+
+                <ImageView
+                    android:layout_width="206dp"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ultrasound" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="left"
+                android:text="2- Electrical emulation (Interferential) :"
+                android:textColor="@color/navbar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Electrical interferential current stimulation versus electrical acupuncture in the management of hemiplegic shoulder pain and disability following ischemic stroke-a randomized clinical trial ."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/electricalemulationinterfrantial" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="left"
+                android:text="3- Shortwave diathermy :"
+                android:textColor="@color/navbar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Shortwave diathermy uses high-frequency electromagnetic energy to generate heat. It may be applied in pulsed or continuous energy waves. It has been used to treat pain from kidney stones, and pelvic inflammatory disease ."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="198dp"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/shortwavediathermy" />
+
+                <ImageView
+                    android:layout_width="206dp"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/shorat" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="left"
+                android:text="4- Hot bag smooth heat :"
+                android:textColor="@color/navbar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="An electric hot gel pouch is a pouch filled and sealed with special gel, used to provide warmth, typically whilst in bed, but also for the application of heat to a specific part of the body. It is a high-quality reliever from aches in cold climatic conditions. Gives relief from pain and makes you feel comfortable ."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="198dp"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/hotbagsmoothheat" />
+
+                <ImageView
+                    android:layout_width="206dp"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/hot" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="left"
+                android:text="5- TENS machine :"
+                android:textColor="@color/navbar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="Transcutaneous electrical nerve stimulation (TENS) is a method of pain relief involving the use of a mild electrical current.A TENS machine is a small, battery-operated device that has leads connected to sticky pads called electrodes."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="198dp"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/censmachine" />
+
+                <ImageView
+                    android:layout_width="206dp"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/tens" />
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/akaya_telivigala"
+                android:gravity="left"
+                android:text="5- Gymnasium :"
+                android:textColor="@color/navbar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:fontFamily="@font/alata"
+                android:gravity="left"
+                android:text="The meaning of GYMNASIUM is a large room used for various indoor sports (such as basketball or boxing) and usually equipped with gymnastic apparatus ."
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="142dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/gymnasion" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
